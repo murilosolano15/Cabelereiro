@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/lateral">
+
+        <item android:id="@+id/menuPerfil" android:title="@string/perfil" android:icon="@drawable/iconperfil"/>
+
+        <item android:id="@+id/menuAgendar" android:title="@string/agendar" android:icon="@drawable/iconagenda"/>
+
+        <item android:id="@+id/menuHistorico" android:title="@string/historico" android:icon="@drawable/iconhistorico"/>
+
+        <item android:id="@+id/menuPreco" android:title="@string/preco" android:icon="@drawable/iconpreco"/>
+
+        <item android:id="@+id/menuProfissional" android:title="@string/profissional" android:icon="@drawable/iconprofissional"/>
+
+        <item android:id="@+id/menuUnidade" android:title="@string/unidade" android:icon="@drawable/iconunidade"/>
+
+        <item android:id="@+id/menuPolitica" android:title="@string/politica" android:icon="@drawable/iconpolitica"/>
+
+
+    </group>
+
+
+    <group>
+        <item android:id="@+id/menuSair" android:title="@string/sair" android:icon="@drawable/iconsair"/>
+    </group>
+
+</menu>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".cadastrar">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tlCadastrartxtLogin"
+                    android:hint="@string/login"
+                    android:layout_margin="10dp"
+                    android:inputType="text"/>
+
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+            android:id="@+id/tlCadastrartxtSenha"
+            android:hint="@string/senha"
+            android:layout_margin="10dp"
+            android:inputType="textPassword"/>
+
+
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tlCadastrartxtNome"
+                    android:hint="@string/nome"
+                    android:layout_margin="10dp"
+                    android:inputType="text"/>
+
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+            android:id="@+id/tlCadastrartxtCPF"
+            android:hint="@string/cpf"
+            android:layout_margin="10dp"
+            android:inputType="number"/>
+
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+            android:text="@string/sexo"
+            android:layout_margin="15dp"/>
+
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+                <RadioGroup android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="20dp">
+
+                    <RadioButton android:layout_width="200dp" android:layout_height="wrap_content"
+                    android:text="@string/masculino"
+                    android:id="@+id/tlCadastrarRbtMasculino"/>
+
+                    <RadioButton android:layout_width="200dp" android:layout_height="wrap_content"
+                                 android:text="@string/feminino"
+                                 android:id="@+id/tlCadastrarRbtFeminino"/>
+
+
+
+                </RadioGroup>
+            </LinearLayout>
+
+
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+            android:text="Contato"
+            android:layout_margin="10dp"/>
+<EditText
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:id="@+id/tlCadastrartxtTelefone"
+        android:inputType="phone"
+        android:layout_margin="10dp"
+/>
+
+<EditText android:layout_width="match_parent" android:layout_height="wrap_content"
+android:id="@+id/tlCadastrartxtEmail"
+android:inputType="textEmailAddress"
+android:hint="@string/email"
+android:layout_margin="10dp"/>
+
+<TextView
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+android:text="Endereço"
+android:layout_margin="10dp"/>
+            <EditText android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:hint="@string/tipo"
+                      android:id="@+id/tlCadastrartxtTipo"
+                      android:layout_margin="10dp"
+                      android:inputType="text"
+            />
+
+            <EditText android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:hint="@string/logradouro"
+            android:layout_margin="10dp"
+            android:inputType="text"
+            android:id="@+id/tlCadastrartxtLogradouro"/>
+
+
+            <EditText android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:hint="@string/numero"
+                      android:layout_margin="10dp"
+                      android:inputType="text"
+                      android:id="@+id/tlCadastrartxtNumero"
+            />
+
+            <EditText android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:hint="@string/complemento"
+            android:layout_margin="10dp"
+            android:inputType="text"
+            android:id="@+id/tlCadastrartxtComplemento"/>
+
+
+            <EditText android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:hint="@string/cep"
+            android:id="@+id/tlCadastrartxtCep"
+            android:layout_margin="10dp"
+            android:inputType="text"/>
+
+
+
+            <EditText android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:hint="@string/bairro"
+                      android:id="@+id/tlCadastrartxtBairro"
+                      android:layout_margin="10dp"
+                      android:inputType="text"/>
+
+
+            <EditText android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:hint="@string/cidade"
+            android:id="@+id/tlCadastrartxtCidade"
+            android:layout_margin="10dp"
+            android:inputType="text"/>
+
+            <EditText android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:hint="@string/estado"
+                      android:id="@+id/tlCadastrartxtEstado"
+                      android:layout_margin="10dp"
+                      android:inputType="text"
+                      android:maxLength="2"
+
+            />
+
+            <Button android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:id="@+id/tlCadastrarBtnCadastrar"
+            android:text="@string/cadastrar"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="50dp"
+            android:layout_marginTop="30dp"/>
+
+
+        </LinearLayout>
+
+
+
+
+</ScrollView>
